@@ -16,10 +16,10 @@
 
         conda install tensorflow-gpu 
 
-    (you can also specify version like this: conda install tensorflow-gpu=1.9.0, which is the version I used.)
+    (you can also specify version like this: conda install tensorflow-gpu=1.15.0, which is the version I used.)
     Or just install CPU version:
 
-        conda install tensorflow=1.9.0
+        conda install tensorflow=1.15.0
 
     3) The next step is to install SASTBX, which is available from this link:
 
@@ -40,7 +40,7 @@
     ```
     If it prints the tensorflow version information, the installation is successful.
 
-The supports to Python 3.0 and Tensorflow 2.x will be provided in future releases (see Notes at the end). For the moment, tensorflow 2.0 or above can be used by the following 
+The supports to Python 3.0 and Tensorflow 2.x will be provided in future releases (see Notes at the end). For the moment, tensorflow 2.0 or above can be used by the following (added to the current release)
 ```python
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
