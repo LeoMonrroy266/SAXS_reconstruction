@@ -1,6 +1,7 @@
 #coding:utf-8
 import numpy as np
 import tensorflow.compat.v1 as tf 
+tf.disable_v2_behavior()
 import exceptions
 import map2iq
 import auto_encoder_t
@@ -29,6 +30,7 @@ parser.add_argument('--output_folder',help='path of output file',type=str)
 parser.add_argument('--target_pdb',help='path of target pdb file',default='None',type=str)
 parser.add_argument('--rmax_start',help='start range of rmax',default=10,type=float)
 parser.add_argument('--rmax_end',help='end range of rmax',default=300,type=float)
+parser.add_argument('--max_iter',help='maximum number of iteration',default=80,type=float)
 args=parser.parse_args()
 
 saved_model_path=args.model_path
@@ -431,6 +433,7 @@ if __name__=='__main__':
 	target_pdb=args.target_pdb
 	rmax_start=args.rmax_start
 	rmax_end=args.rmax_end+1
+	max_iter=args.max_iter
 
 	estimate_rmax=None
 	process_result = ps.process(iq_path)
@@ -472,7 +475,7 @@ if __name__=='__main__':
 		print saved_model_path
 		print model_path
 		saver.restore(sess, model_path)
-		genetic_object=evolution(output_folder,evolution_mode,rmax_start,rmax_end)
+		genetic_object=evolution(output_folder,evolution_mode,rmax_start,rmax_end, max_iter=max_iter)
 		if evolution_mode=='withoutrmax':
 			result_sample,voxel_group,result_sample_rmax,voxel_group_rmax=genetic_object.evolution_iteration()
 			t2=time.time()
