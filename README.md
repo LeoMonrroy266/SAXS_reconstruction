@@ -85,3 +85,8 @@ tf.disable_v2_behavior()
     
 5. Notes
     The SASTBX package is used to provide two functions: (1) computation of model saxs profile from voxel objects; (2) superpose the reconstructed models to reference model to quantify the consistency. Both functions can be replaced by other options. For example, the SAXS profiles can be computed using Crysol, AquaSAXS, PepsiSAXS or DENSS; model comparison can be done with chimera program, or the program in ATSAS. The codes in map2iq.py needs to be modified to reflect the change of these functions.
+    
+ 6. Training of the auto-encoder can be accomplished using two methods:
+     * two-stage training (as described in the paper) 
+     * single-stage training
+     The source codes are available in train_net folder for both methods (see README inside).
