@@ -1,6 +1,6 @@
  There are three directories in folder 'train_net':
-    * dataset is used to generate dataset. 
-    * train_net1 and train_net2 are two methods to train antoencoder network.
+ * dataset is used to generate dataset. 
+ * train_net1 and train_net2 are two methods to train antoencoder network.
     
     In 'dataset', you can generate dataset before training : 
       1) Run 'python download.py' to download **pisa** dataset. 
