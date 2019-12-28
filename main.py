@@ -1,6 +1,6 @@
 #coding:utf-8
 import numpy as np
-import tensorflow as tf 
+import tensorflow.compat.v1 as tf 
 import exceptions
 import map2iq
 import auto_encoder_t
@@ -52,7 +52,7 @@ class MyThread(threading.Thread):
 
 class evolution:
 
-	def __init__(self,output_folder,mode,rmax_start,rmax_end):
+	def __init__(self,output_folder,mode,rmax_start,rmax_end,max_iter=80):
 		#mode has 'withrmax' and 'withoutrmax', means know the size or not.
 		self.mode=mode
 		self.rmax_start=rmax_start
@@ -60,6 +60,7 @@ class evolution:
 		self.output_folder=output_folder
 		self.iteration_step=0
 		self.counter=0
+                self.max_iter=max_iter
 
 		#length of latent vector.
 		self.gene_length=200
@@ -387,7 +388,7 @@ class evolution:
 					self.group_num=self.group_num-100
 					self.inheritance_num=self.inheritance_num-100
 					self.counter=0
-					if self.group_num<100:
+					if self.group_num<100 or self.iteration_step>self.max_iter:
 						#np.save('%s/score_mat.npy'%self.output_folder,self.score_mat)
 						np.savetxt('%s/score_mat.txt'%self.output_folder,self.score_mat,fmt='%.3f')
 						result_sample=self.multi_thread_decode_group(self.group[:self.statistics_num,:self.gene_length])
