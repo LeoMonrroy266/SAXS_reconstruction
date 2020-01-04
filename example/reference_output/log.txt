@@ -1,0 +1,89 @@
+generate time:0
+generate time:0
+decode_time:229
+reprocess gene number: 94
+find_region_time:115
+compute_score_time:3
+decode_time:173
+reprocess gene number: 80
+find_region_time:84
+compute_score_time:2
+compute_group_score cost:260
+iteration_step_1 cost:260 
+
+decode_time:167
+reprocess gene number: 65
+find_region_time:73
+compute_score_time:3
+compute_group_score cost:244
+iteration_step_2 cost:244 
+
+decode_time:162
+reprocess gene number: 63
+find_region_time:670
+compute_score_time:5
+compute_group_score cost:837
+iteration_step_3 cost:837 
+
+decode_time:212
+reprocess gene number: 65
+find_region_time:84
+compute_score_time:3
+compute_group_score cost:299
+iteration_step_4 cost:299 
+
+decode_time:178
+reprocess gene number: 51
+find_region_time:97
+compute_score_time:4
+compute_group_score cost:280
+iteration_step_5 cost:280 
+
+decode_time:212
+reprocess gene number: 50
+find_region_time:67
+compute_score_time:3
+compute_group_score cost:283
+iteration_step_6 cost:283 
+
+decode_time:203
+reprocess gene number: 53
+find_region_time:69
+compute_score_time:3
+compute_group_score cost:276
+iteration_step_7 cost:276 
+
+decode_time:190
+reprocess gene number: 50
+find_region_time:71
+compute_score_time:3
+compute_group_score cost:266
+iteration_step_8 cost:266 
+
+decode_time:187
+reprocess gene number: 43
+find_region_time:56
+compute_score_time:3
+compute_group_score cost:247
+iteration_step_9 cost:247 
+
+decode_time:198
+reprocess gene number: 52
+find_region_time:72
+compute_score_time:3
+compute_group_score cost:274
+iteration_step_10 cost:274 
+
+decode_time:195
+reprocess gene number: 31
+find_region_time:54
+compute_score_time:3
+compute_group_score cost:253
+iteration_step_11 cost:253 
+
+
+voxel_group cost:162
+evolution time: 4052
+write2pdb time: 16
+cal_cc time: 171
+total time: 4240

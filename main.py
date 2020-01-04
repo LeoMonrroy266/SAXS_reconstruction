@@ -386,7 +386,7 @@ class evolution:
 				self.counter=0
 			else:
 				self.counter=self.counter+1
-				if self.counter>15:
+				if self.counter>10 or self.iteration_step>self.max_iter:
 					self.group_num=self.group_num-100
 					self.inheritance_num=self.inheritance_num-100
 					self.counter=0

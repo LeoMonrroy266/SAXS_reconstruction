@@ -1,5 +1,6 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import random
 import os
 import sys
@@ -170,12 +171,4 @@ for e in range(NUM_EPOCHS):
 	logfile.write('epoch {}, average value for testing loss is {:.4f}'.format(e,np.mean(test_loss_list)))
 	logfile.close()
 sess.close()
-
-
-
-
-
-
-
-
 

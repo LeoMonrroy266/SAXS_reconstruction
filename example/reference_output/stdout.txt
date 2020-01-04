@@ -1,0 +1,486 @@
+3.55
+BATCH_SIZE::: 10
+generate computing graph
+/Users/hgliu/Documents/GitHub/SAXS_reconstruction//model/
+/Users/hgliu/Documents/GitHub/SAXS_reconstruction//model/
+/Users/hgliu/Documents/GitHub/SAXS_reconstruction//model/model.ckpt-11000
+original input , top5: [0.1045536503 0.1379819973 0.1521611945 0.1595359888 0.2225425314]
+best_so_far, top5: [0.1045536503 0.1379819973 0.1521611945 0.1595359888 0.2225425314]
+mean_score is: 1.59934239250993e+17
+initialized
+rmax_real: 35.5
+iteration_step: 1 top5: [0.1399827192 0.178334702  0.2008649499 0.2018873838 0.2309791323] 
+mean_score is:0.24 300
+iteration_step: 2 top5: [0.1092046376 0.1399827192 0.178334702  0.1814438652 0.1934810594] 
+mean_score is:0.22 300
+iteration_step: 3 top5: [0.1022979447 0.1092046376 0.1399827192 0.1510589541 0.1525635058] 
+mean_score is:0.17 300
+iteration_step: 4 top5: [0.0920740045 0.1022979447 0.1042531519 0.1042753733 0.1092046376] 
+mean_score is:0.13 300
+iteration_step: 5 top5: [0.0546079306 0.0723946117 0.0920740045 0.0926965351 0.1022979447] 
+mean_score is:0.11 300
+iteration_step: 6 top5: [0.0546079306 0.0568675441 0.0571639601 0.0587051718 0.0637677963] 
+mean_score is:0.09 300
+iteration_step: 7 top5: [0.0546079306 0.0568675441 0.0571639601 0.0587051718 0.0637677963] 
+mean_score is:0.08 300
+iteration_step: 8 top5: [0.0546079306 0.0548344035 0.0568675441 0.0571639601 0.0587051718] 
+mean_score is:0.08 300
+iteration_step: 9 top5: [0.0301645677 0.0328635594 0.0340737418 0.0455395427 0.0546079306] 
+mean_score is:0.06 300
+iteration_step: 10 top5: [0.0207165098 0.0291378374 0.0301645677 0.0328635594 0.0340737418] 
+mean_score is:0.05 300
+iteration_step: 11 top5: [0.0207165098 0.027345611  0.0291378374 0.0301645677 0.0328635594] 
+mean_score is:0.04 300
+the Input parameters are:
+['pdbfile=result/sub3/0.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4449084124
+the Input parameters are:
+['pdbfile=result/sub3/1.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.444465136
+the Input parameters are:
+['pdbfile=result/sub3/2.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4447820185
+the Input parameters are:
+['pdbfile=result/sub3/3.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4445333013
+the Input parameters are:
+['pdbfile=result/sub3/4.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4442876142
+the Input parameters are:
+['pdbfile=result/sub3/5.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4444440929
+the Input parameters are:
+['pdbfile=result/sub3/6.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4447151696
+the Input parameters are:
+['pdbfile=result/sub3/7.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4443725393
+the Input parameters are:
+['pdbfile=result/sub3/8.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4445645243
+the Input parameters are:
+['pdbfile=result/sub3/9.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4436985031
+the Input parameters are:
+['pdbfile=result/sub3/10.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4447266981
+the Input parameters are:
+['pdbfile=result/sub3/11.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4439550888
+the Input parameters are:
+['pdbfile=result/sub3/12.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4444744124
+the Input parameters are:
+['pdbfile=result/sub3/13.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4438220218
+the Input parameters are:
+['pdbfile=result/sub3/14.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.44497178
+the Input parameters are:
+['pdbfile=result/sub3/15.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4443207721
+the Input parameters are:
+['pdbfile=result/sub3/16.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4448343128
+the Input parameters are:
+['pdbfile=result/sub3/17.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4439772392
+the Input parameters are:
+['pdbfile=result/sub3/18.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4437654206
+the Input parameters are:
+['pdbfile=result/sub3/19.pdb']
+#phil __OFF__
+--------------Zernike Moments Calculation and Map Construction----------------
+
+#phil __ON__
+#phil __END__
+np 15
+rmax 39.4450056832
+the Input parameters are:
+['fix=result/out.ccp4', 'typef=ccp4', 'mov=result/out.pdb', 'rmax=39.444444']
+#phil __OFF__
+-------------------Align molecular models in various format (PDB/NLM/XPLOR) ---------------------
+
+#phil __ON__
+#phil __END__
+doing alignment
+#############  SUMMARY of ALIGNMENT  #############
+Correlation Coefficient Between two models is:  0.825360664679
+Rmax is                                      :  39.444444
+Euler angles for the moving object is        :  [4.04931463597021, 6.308986851384623, 2.2309054096216645]
+Center of Mass is shifted to                 :  [39.444444, 39.444444, 39.444444]
+OUTPUT files are : 
+  result/out_za.pdb
+#############     END of SUMMARY     #############
+the Input parameters are:
+['fix=result/out.ccp4', 'typef=ccp4', 'mov=SASDA25_fit1_model1.pdb', 'rmax=39.444444']
+#phil __OFF__
+-------------------Align molecular models in various format (PDB/NLM/XPLOR) ---------------------
+
+#phil __ON__
+#phil __END__
+doing alignment
+#############  SUMMARY of ALIGNMENT  #############
+Correlation Coefficient Between two models is:  0.666739831225
+Rmax is                                      :  39.444444
+Euler angles for the moving object is        :  [1.9557613084046621, 3.9321429223134676, -0.046688730673692655]
+Center of Mass is shifted to                 :  [39.444444, 39.444444, 39.444444]
+OUTPUT files are : 
+  result/SASDA25_fit1_model1_za.pdb
+#############     END of SUMMARY     #############
+0 0 0.700
+0 1 0.610
+0 2 0.573
+0 3 0.628
+0 4 0.583
+0 5 0.657
+0 6 0.612
+0 7 0.701
+0 8 0.567
+0 9 0.585
+0 10 0.639
+0 11 0.613
+0 12 0.657
+0 13 0.604
+0 14 0.566
+0 15 0.676
+0 16 0.513
+0 17 0.651
+0 18 0.629
+0 19 0.642
+1 0 0.683
+1 1 0.671
+1 2 0.670
+1 3 0.705
+1 4 0.732
+1 5 0.647
+1 6 0.613
+1 7 0.591
+1 8 0.624
+1 9 0.653
+1 10 0.648
+1 11 0.600
+1 12 0.697
+1 13 0.673
+1 14 0.732
+1 15 0.593
+1 16 0.639
+1 17 0.638
+1 18 0.592
+1 19 0.617
+2 0 0.679
+2 1 0.683
+2 2 0.671
+2 3 0.715
+2 4 0.757
+2 5 0.670
+2 6 0.705
+2 7 0.685
+2 8 0.732
+2 9 0.646
+2 10 0.613
+2 11 0.647
+2 12 0.627
+2 13 0.613
+2 14 0.591
+2 15 0.652
+2 16 0.628
+2 17 0.639
+2 18 0.699
+2 19 0.672
+3 0 0.732
+3 1 0.679
+3 2 0.683
+3 3 0.710
+3 4 0.664
+3 5 0.736
+3 6 0.730
+3 7 0.711
+3 8 0.671
+3 9 0.715
+3 10 0.698
+3 11 0.601
+3 12 0.674
+3 13 0.757
+3 14 0.727
+3 15 0.670
+3 16 0.718
+3 17 0.705
+3 18 0.656
+3 19 0.656
+4 0 0.641
+4 1 0.732
+4 2 0.723
+4 3 0.744
+4 4 0.679
+4 5 0.668
+4 6 0.760
+4 7 0.729
+4 8 0.734
+4 9 0.683
+4 10 0.725
+4 11 0.720
+4 12 0.745
+4 13 0.690
+4 14 0.710
+4 15 0.664
+4 16 0.736
+4 17 0.730
+4 18 0.667
+4 19 0.711
+5 0 0.756
+5 1 0.735
+5 2 0.641
+5 3 0.706
+5 4 0.732
+5 5 0.753
+5 6 0.723
+5 7 0.744
+5 8 0.679
+5 9 0.719
+5 10 0.668
+5 11 0.760
+5 12 0.729
+5 13 0.734
+5 14 0.683
+5 15 0.725
+5 16 0.720
+5 17 0.710
+5 18 0.697
+5 19 0.745
+6 0 0.756
+6 1 0.701
+6 2 0.744
+6 3 0.755
+6 4 0.760
+6 5 0.634
+6 6 0.735
+6 7 0.634
+6 8 0.641
+6 9 0.706
+6 10 0.680
+6 11 0.707
+6 12 0.732
+6 13 0.753
+6 14 0.723
+6 15 0.744
+6 16 0.679
+6 17 0.719
+6 18 0.736
+6 19 0.757
+7 0 0.756
+7 1 0.701
+7 2 0.744
+7 3 0.755
+7 4 0.760
+7 5 0.634
+7 6 0.735
+7 7 0.752
+7 8 0.634
+7 9 0.744
+7 10 0.641
+7 11 0.706
+7 12 0.680
+7 13 0.745
+7 14 0.707
+7 15 0.755
+7 16 0.707
+7 17 0.763
+7 18 0.732
+7 19 0.742
+8 0 0.756
+8 1 0.753
+8 2 0.701
+8 3 0.744
+8 4 0.755
+8 5 0.760
+8 6 0.634
+8 7 0.735
+8 8 0.713
+8 9 0.689
+8 10 0.679
+8 11 0.752
+8 12 0.757
+8 13 0.768
+8 14 0.634
+8 15 0.702
+8 16 0.744
+8 17 0.641
+8 18 0.706
+8 19 0.671
+9 0 0.686
+9 1 0.700
+9 2 0.759
+9 3 0.668
+9 4 0.756
+9 5 0.753
+9 6 0.701
+9 7 0.744
+9 8 0.755
+9 9 0.760
+9 10 0.715
+9 11 0.683
+9 12 0.721
+9 13 0.634
+9 14 0.735
+9 15 0.713
+9 16 0.689
+9 17 0.749
+9 18 0.755
+9 19 0.658
+10 0 0.745
+10 1 0.749
+10 2 0.686
+10 3 0.700
+10 4 0.759
+10 5 0.733
+10 6 0.688
+10 7 0.668
+10 8 0.720
+10 9 0.756
+10 10 0.753
+10 11 0.669
+10 12 0.701
+10 13 0.744
+10 14 0.755
+10 15 0.760
+10 16 0.694
+10 17 0.715
+10 18 0.683
+10 19 0.698
+11 0 0.745
+11 1 0.739
+11 2 0.749
+11 3 0.686
+11 4 0.700
+11 5 0.759
+11 6 0.733
+11 7 0.688
+11 8 0.668
+11 9 0.723
+11 10 0.720
+11 11 0.760
+11 12 0.714
+11 13 0.756
+11 14 0.753
+11 15 0.669
+11 16 0.683
+11 17 0.701
+11 18 0.744
+11 19 0.641
+total_time: 4240.25119519

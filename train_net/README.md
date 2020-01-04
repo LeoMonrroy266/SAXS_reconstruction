@@ -11,3 +11,15 @@
       The final model will saved in 'train_net1/net2/model'.
     * For single-stage traning: Go to 'train_net2' folder, run 'python autoencoder.py' directly to train network. 
       The final model will saved in 'train_net2/model'.
+
+Note: tensorflow version should be >=1.15. Otherwise, change all source code to lower version imports:
+For example:
+```python
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+```
+
+should be changed to 
+```python
+import tensorflow as tf
+```
