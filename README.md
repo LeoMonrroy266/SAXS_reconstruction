@@ -8,7 +8,7 @@
 -------
 
 1. Environment requirement and installation:
-    You need to install **python2.7**, **tensorflow** and **SASTBX** kit.
+    You need to install **python2.7**, **tensorflow (>1.15)** and **SASTBX** kit.
     1) Recommend you use Anaconda to manage your environment. Just download Anaconda (python2.7 version) on https://www.anaconda.com, then follow the installation and user guide which suit for your platform. (https://docs.anaconda.com/anaconda/install/linux/)
 
     2) After you installed anaconda successfully, use conda to install tensorflow. 
@@ -89,4 +89,4 @@ tf.disable_v2_behavior()
  6. Training of the auto-encoder can be accomplished using two methods:
      * two-stage training (as described in the paper) 
      * single-stage training
-     The source codes are available in train_net folder for both methods (see README inside).
+     The source codes are available in **train_net** folder for both methods (see README inside).
