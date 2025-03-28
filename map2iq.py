@@ -165,8 +165,9 @@ def run_withoutrmax(start_file, iq_file=None, rmax_center=None):
 
 
 class ED_map(object):
-  def __init__(self, data, rmax, qmax=0.15, nmax=20, np_on_grid=15, prefix='prefix', fraction=0.9):
-    self.raw_data=data
+  def __init__(self, data, diff_data, rmax, qmax=0.15, nmax=20, np_on_grid=15, prefix='prefix', fraction=0.9):
+    self.raw_data = data
+    self.diff_data = diff_data
     self.rmax = rmax/fraction
     self.fraction = fraction
     self.qmax = qmax
